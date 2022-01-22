@@ -1,0 +1,102 @@
+.body-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 1rem;
+    margin: 0;
+}
+
+.body-wrapper {
+    grid-column: 2 / 12;
+}
+
+
+
+/* TWO COLUMN GRID */
+.project2-container {
+    display: grid;
+    grid-column: 1/13;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2rem;
+    margin: 0;
+    padding-top: 2rem;
+}
+
+
+/* TWO COLUMN GRID FOR GALLERY */
+.project2-gallery {
+    display: grid;
+    grid-column: 1/13;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0.5rem;
+    margin: 0;
+    padding-bottom: 0.5rem;
+}
+
+/* ONE COLUMN GRID CONTAINER */
+.project1-container {
+    display: grid;
+    grid-column: 1/13;
+    grid-template-columns: 1fr;
+    grid-column-gap: 2rem;
+    margin: 0;
+    padding-top: 2rem;
+
+}
+
+
+.four-column-grid {
+    display: grid;
+    grid-column: 1/13;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 2rem;
+    margin: 0;
+    padding-top: 1rem;
+    text-align: left;
+}
+
+
+
+
+
+/* -------------- FOOTER GRIDS --------------  */
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-content {
+    padding: 0 1rem 0 1rem;
+}
+
+/* -------------- MEDIA QUERIES --------------*/
+
+@media screen and (max-width: 35em) {
+    .project-container {
+        display: grid;
+        grid-column: 1 / 13;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-row-gap: 1rem;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 52em) {
+    .profile {
+        display: block;
+    }
+
+    .profile-description {
+        display: block;
+        max-width: 45ch;
+    }
+
+    .about-grid-container {
+        display: block;
+    }
+
+  
+}
