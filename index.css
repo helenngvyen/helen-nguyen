@@ -1,0 +1,69 @@
+/* --------- HERO LANDING PAGE --------- */
+
+.hero-landing {
+    width: 100vw;
+    height: 100vh;
+    /* position: relative;
+    display: flex; */
+    background-image: url(../img/wallpaper-01.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* main page cover gallery */
+.gallery-cover {
+    width: 100%;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* --------- GALLERY --------- */
+
+/* referenced from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity */
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    /* backface-visibility: hidden; */
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    color: #494949;
+    font-family: 'Biko';
+    font-size: 1rem;
+    font-weight: 540;
+    /* font-style: italic; */
+}

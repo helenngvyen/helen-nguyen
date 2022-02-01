@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Biko";
+    src: url("/css/fonts/Biko.eot");
+    src: url("/css/fonts/Biko.woff") format("woff"), url("/css/fonts/Biko.otf") format("opentype"), url("/css/fonts/Biko.svg#filename") format("svg");
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Muli', Helvetica, Arial, sans-serif;
+    color: #514c4c;
+    overflow-x: hidden;
+}
+
+.about-me {
+    text-align: left;
+    margin-top: 10rem;
+    max-width: 74ch;
+}
+
+.main-about-me {
+    text-align: left;
+    color: #243B46;
+    margin-top: 15rem;
+    max-width: 68ch;
+}
+
+.spacing {
+    padding-top: 1.2rem;
+}
+
+.footer-background {
+    color: #EDE6DF;
+
+}
+
+.profile-background {
+    background-image: url(../img/tester.png);
+    width: 100vw;
+    height: auto;
+}
+
+header {
+    background-color: white;
+}
+/*-------------- NAVIGATION BAR --------------*/
+
+nav a {
+    display: inline-block;
+    color: #677377;
+    text-decoration: none;
+    padding: 2rem 1.5rem 0.7rem 1.5rem;
+    box-sizing: border-box;
+    font-family: 'Muli';
+}
+
+nav a:hover, nav a:active, nav a:focus {
+    text-decoration: none;
+    font-weight: 620;
+    transition-property: color;
+    color: #40484b;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-out;
+}
+
+#nav-bar nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+/*-------------- FOOTER --------------*/
+.footer {
+    background-color: white;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.footer a {
+    color: #8c8f91;
+    text-decoration: none;
+    display: inline-block;
+    padding: 2rem 1.5rem 0.7rem 1.5rem;
+}
+
+.footer a:hover{
+    color: #40484b;
+    transition: color .15s ease-in-out;
+    font-weight: 500;
+}
+
+
+/* .footer {
+    background-color: white;
+    text-align:center;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    margin-top: 2rem;
+    width: 100%;
+
+}
+
+.footer a {
+    color: #677377;
+    text-decoration: none;
+    margin: 0 .5rem;
+    display: inline-block;
+  }
+  
+.footer a:hover {
+    color: #40484b;
+    transition: color .15s ease-in-out;
+} */
+
+
+
+
+
+/* HEADINGS */
+h1 {
+    color: #243B46;
+    font-size: 2.5rem;
+    margin: 0;
+    margin-top: 2.5rem;
+    line-height: 1;
+}
+
+h2 {
+    color: #354b55;
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+h3 {
+    color: #495961;
+    margin: 0;
+}
+
+h4 {
+    color: #505050;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+p, ol {
+    color: #6e6e6e;
+}
+
+ul {
+    color: #84978f;
+    margin:0;
+}
+
+.bold {
+    font-size:660;
+}
