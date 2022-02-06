@@ -61,9 +61,9 @@ img {
 }
 
 .text {
-    color: #494949;
-    font-family: 'Biko';
-    font-size: 1rem;
-    font-weight: 540;
+    color: #383838;
+    font-family: 'Biko', 'muli', Helvetica, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 545;
     /* font-style: italic; */
 }

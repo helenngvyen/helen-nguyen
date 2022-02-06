@@ -8,6 +8,7 @@
     src: url("/css/fonts/Biko.woff") format("woff"), url("/css/fonts/Biko.otf") format("opentype"), url("/css/fonts/Biko.svg#filename") format("svg");
 }
 
+
 html {
     scroll-behavior: smooth;
     height: 100%;
