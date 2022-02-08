@@ -88,6 +88,9 @@
 
 /* MEDIA QUERIES */
 
+
+
+
 @media screen and (max-width: 60rem) {
     .project2-container {
         display: grid;
@@ -121,7 +124,5 @@
         grid-template-columns: 1fr;
 
     }
-
-    
 }
 

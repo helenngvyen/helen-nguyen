@@ -51,9 +51,38 @@ body {
     height: auto;
 }
 
+
 header {
     background-color: white;
 }
+
+
+
+
+
+/* PROFILE  */
+
+.outer-container {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+.text-box {
+    width: 25rem;
+    margin: 1.5rem;
+    background-color: white;
+    padding: 0.5rem;
+ }
+
+.p-profile {
+    color: #474444;
+    margin-top: 0;
+    padding-top: 0.5rem;
+}
+
+
+
 /*-------------- NAVIGATION BAR --------------*/
 
 nav a {
@@ -88,6 +117,7 @@ nav a:hover, nav a:active, nav a:focus {
 .footer {
     background-color: white;
     text-align: center;
+    justify-items: center;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -158,8 +188,8 @@ h3 {
 }
 
 h4 {
-    color: #505050;
-    font-size: 1rem;
+    color: #2e2e2e;
+    font-size: 1.1rem;
     margin-top: 1rem;
 }
 
