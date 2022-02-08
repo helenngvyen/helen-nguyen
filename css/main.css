@@ -8,6 +8,7 @@
     src: url("/css/fonts/Biko.woff") format("woff"), url("/css/fonts/Biko.otf") format("opentype"), url("/css/fonts/Biko.svg#filename") format("svg");
 }
 
+
 html {
     scroll-behavior: smooth;
     height: 100%;
@@ -167,8 +168,13 @@ p, ol {
 }
 
 ul {
-    color: #84978f;
+    color: #618373;
     margin:0;
+}
+
+li {
+    color: #618373;
+    margin-left: 3rem;
 }
 
 .bold {
